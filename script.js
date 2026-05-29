@@ -168,7 +168,7 @@ function calculatePremiums() {
   document.getElementById('resultTable').style.display = 'block';
 
   // Update Google Form URL with pre-filled params (replace with real form URL)
-  const formUrl = `https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?usp=pp_url`
+  const formUrl = `https://script.google.com/macros/s/AKfycbw2MA3qQC3iCWqfkAmxtQhUplw5pZPIgbNy1PcjoefZpuHP8BDzB4wCpymI6ROdFyE8/exec`
     + `&entry.INSURANCE_TYPE=${encodeURIComponent(type)}`
     + `&entry.AGE=${age}`
     + `&entry.COVERAGE=${coverage}`;
